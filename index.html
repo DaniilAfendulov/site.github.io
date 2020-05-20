@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <!-- служебная информация для браузера -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Бэтмэн, но Даша лучше - о фильме</title> 
+  <!-- подключение шрифтов -->
+  <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <!-- это контейнер держит всё содержимое 
+    в своих границах-->
+  <div class="container">
+    <!-- шапка сайта(логотип, поиск и т.д.) -->
+    <header class="header">
+       <div class="logo">КиноПульс</div>
+       <form action="" class="search">
+         <!-- placeholder - текст замещения -->
+         <input type="search" class="search-input" placeholder="Фильмы, сериалы, актеры">
+         <!-- submit -кнопка отправляет запрос -->
+         <button type="submit" class="search-button">
+           <!-- alt - альтернативный текст(отобр при незагрузке) -->
+           <img src="img\search-icon.svg" alt="search-icon">
+         </button>
+       </form>
+       <div class="user">
+         <img src="img\bookmark-icon.svg" alt="bookmark">
+         <img src="img\avatar.jpg" alt="" class="avatar">
+       </div>
+    </header>
+
+    <main class="main">
+      <h1 class="title">Бэтмэн</h1>
+      <small class="title-en">The Batman</small>
+
+      <div class="info">
+        <div class="movie-info">
+          <span class="tag">Фильм</span>
+          <span class="country">США, 2021 год</span>
+          <a href="#" class="play">Смотреть трейлер</a>
+        </div>
+        <a href="#" class="more">Подробнее</a>
+      </div>
+
+      <div class="content">
+        <div class="short-info"></div>
+      </div>
+      <!-- /.content -->
+
+    </main>
+
+  </div>
+
+</body>
+</html>
